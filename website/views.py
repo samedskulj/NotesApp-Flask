@@ -17,7 +17,7 @@ def home():
         else:
             nova_biljeska = Note(data=note, user_id=current_user.id)
             db.session.add(nova_biljeska)
-            db.session.commit
+            db.session.commit()
             flash('Biljeska upisana!', category='success')
     return render_template("home.html", user=current_user)
 
@@ -25,8 +25,8 @@ def home():
 @views.route('/delete-note', methods=['POST'])
 def delete_note():
     note = json.loads(request.data)
-    noteID = note['noteId']
-    note = Note.query.get(noteID)
+    noteId = note['noteId']
+    note = Note.query.get(noteId)
     if note:
         if note.user_id == current_user.id:
             db.session.delete(note)

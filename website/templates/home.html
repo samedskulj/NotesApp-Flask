@@ -6,9 +6,7 @@
 <ul class="list-group list-group-flash" id="notes">
     {% for note in user.notes%}
     <li class="list-group-item">{{note.data}}
-        <button type="button" class="close" onClick='deleteNote({{note.id}})'>
-            <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" onClick="deleteNote({{ note.id }})"> </button>
     </li>
     {% endfor%}
 </ul>
