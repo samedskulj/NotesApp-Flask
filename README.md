@@ -22,7 +22,7 @@ Beacuse this is is made using `FLASK` you will need to make your own database in
 
 # Release history
 
-* 0.0.1 #
- ** First release of the app **
+1. 0.0.1 
+   - ** First release of the app **
  
  
