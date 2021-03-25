@@ -1,0 +1,30 @@
+.kolonaLogin {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dugmeUloguj {
+  width: 65%;
+}
+.rowLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kolonaSlika {
+  height: 500px;
+}
+
+.container {
+  margin: 0 auto;
+}
+main {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
