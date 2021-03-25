@@ -24,9 +24,5 @@ In `main.py` just run the program, and development server will pop up. The reaso
 * FLASK
 * JavaScript
 
-# Release history
-
-1. 0.0.1 
-   - *First release of the app*
  
  
