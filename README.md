@@ -13,6 +13,10 @@ A app/website for making notes throughout the day. You can log-in or sign-up so 
 
 Beacuse this is is made using `FLASK` you will need to make your own database in `__init__.py` file. To do that just install `npm install flask-sqlalchemy` and initialize the database
 
+# Installation
+
+In `main.py` just run the program, and development server will pop up. The reason this app is not in production mode is beacuse of FLASK (not great for production)
+
 # Technologies 
 
 * HTML/CSS
